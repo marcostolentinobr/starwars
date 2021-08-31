@@ -54,7 +54,7 @@ class Starwars extends Controller
         //Read value
         $draw = intval($_POST['draw']);
         $start = intval($_POST['start']);
-        $searchValue = 'luke';// trim($_POST['search']['value']); // Search value
+        $searchValue = trim($_POST['search']['value']); // Search value
         
         //lista
         $this->setLista();

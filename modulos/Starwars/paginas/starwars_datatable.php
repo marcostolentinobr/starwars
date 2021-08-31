@@ -44,7 +44,7 @@
                     '<b>Clima: </b>' + data.climate + '<br>' +
                     '<b>Diametro: </b>' + data.diameter + '<br>' +
                     '<b>Gravidade: </b>' + data.gravity + '<br>' +
-                    '<b>terreno: </b>' + data.terrain + '<br>'
+                    '<b>Terreno: </b>' + data.terrain + '<br>'
                 );
                 modal_msg.show();
             }
