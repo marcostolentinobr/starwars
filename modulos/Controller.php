@@ -7,7 +7,6 @@ class Controller
     protected $datatable;
     protected $datatableTh;
     protected $datatableNoSort = [];
-    protected $datatableSortDefault = 0;
 
     public function __construct()
     {
