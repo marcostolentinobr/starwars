@@ -34,23 +34,7 @@ class Starwars extends Controller
 
     public function dataTable()
     {
-
-        //Post required
-        $post = ['draw', 'start', 'length', 'order', 'columns', 'search'];
-
-        //erros
-        $erros = [];
-        foreach ($post as $name) {
-            if (!isset($_POST[$name])) {
-                $erros[] = "Enviar post $name";
-            }
-        }
-
-        //erros return
-        if ($erros) {
-            exit(json_encode(['erro' => $erros]));
-        }
-        
+ 
         //Read value
         $draw = intval($_POST['draw']);
         $start = intval($_POST['start']);

@@ -63,8 +63,12 @@
             language: {
                 url: "//cdn.datatables.net/plug-ins/1.10.25/i18n/Portuguese-Brasil.json"
             },
-            searchDelay: 350,
-            processing: true,
+            bLengthChange: false,
+            searchDelay: 500,
+            processing: true, //melhorar isso
+            "language": {
+                processing: '<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i><span class="sr-only">Buscando...</span> '
+            },
             serverSide: true,
             responsive: true,
             serverMethod: 'post',

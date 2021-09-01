@@ -43,7 +43,7 @@ class Controller
             }
 
             $this->datatable[] = $col;
-            $this->datatableTh .= "<th style='" . implode(', ', $style) . "'>$data[0]</th>";
+            $this->datatableTh .= "<th>$data[0]</th>";
             $ordem++;
         }
 
