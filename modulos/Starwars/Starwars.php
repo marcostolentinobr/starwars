@@ -7,7 +7,7 @@ class Starwars extends Controller
     
     protected $listagem = [
 
-        //name
+        //name - sort:no na primeira coluna não funciona
         'name' => 'Nome|sort:no',
 
         //height
